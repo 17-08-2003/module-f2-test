@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color:white;
+    height:100vh;
+    width:100vw;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.form-row{
+display: flex;
+    align-items: center;
+    gap: 17px;
+    width: 80%;
+    margin:29px;
+}
+/* form {
+    margin-bottom: 20px;
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+} */
+input[type="text"], input[type="email"],input[type="search"] ,select {
+    padding: 8px;
+    background-color: black;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color:white;
+    color:black;
+    padding: 12px 20px;
+    border: none;
+    width:48%;
+    margin:23px;
+    border-radius: 4px;
+    cursor: pointer;
+}
